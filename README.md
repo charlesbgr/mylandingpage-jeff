@@ -1,9 +1,9 @@
 # My Landing Page — Jeff
 
-Version locale préparée pour Jeff le 14 octobre 2026.
+Version locale préparée le 14 octobre 2026, publiée sur GitHub Pages le 15 octobre 2026.
 
-- Domaine prévu : `jeff.mylandingpage.click` (publication et DNS non configurés par cette préparation).
-- `origin` : `https://github.com/charlesbgr/mylandingpage-jeff.git` (adresse prévue ; dépôt distant non créé).
+- Domaine : `jeff.mylandingpage.click` (GitHub Pages et DNS configurés le 15 octobre 2026).
+- `origin` : `https://github.com/charlesbgr/mylandingpage-jeff.git` (dépôt distant créé le 15 octobre 2026).
 - `upstream` : `https://github.com/charlesbgr/mylandingpage.git`.
 - Identifiant GTM laissé vide : les deux blocs GTM sont conditionnels et ne se chargent pas tant que cet identifiant reste vide. Renseigner le conteneur de Jeff pour les activer.
 - Webhook Make conservé comme dans le modèle ; aucun formulaire soumis.
@@ -70,7 +70,7 @@ Organisation locale actuelle :
     sync.sh                # outil externe aux dépôts
 ```
 
-La copie locale de Jeff est créée ; sa publication reste à réaliser.
+La copie de Jeff est publiée depuis `main`, à la racine, via GitHub Pages. GTM et GA4 restent désactivés pour leur installation avec Jeff pendant la séance.
 Avant tout envoi, contrôler `git status --short` et `git remote -v` dans la copie.
 Si une synchronisation avec le modèle est prévue, le remote `upstream` doit
 pointer vers `https://github.com/charlesbgr/mylandingpage.git`.
